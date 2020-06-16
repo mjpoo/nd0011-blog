@@ -19,12 +19,20 @@ sidebar {
     border-radius: 10px;
 }
 
-#bioPic {
+#bioPic, #bookPic {
     width: 150px;
     height: 150px;
     border-radius: 75px;
     margin: auto;
+    background-position: center;
+}
+
+#bioPic {
     background-image: url("https://img.yachting.org/gallery/4/200/3103.jpg");
+}
+
+#bookPic {
+    background-image: url("https://www.packtpub.com/media/catalog/product/cache/bf3310292d6e1b4ca15aeea773aca35e/1/8/1847194427.jpg");
 }
 
 @media (max-width: 550px) {
