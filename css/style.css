@@ -1,3 +1,18 @@
+body {
+    height: 100%;
+    color: #000;
+    font-family: lato, arial, helvetica, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    margin: 0px;
+    min-height: 100%;
+    padding: 0px;
+    width: 950px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
 a:link, a:visited {
     color: #000000;
 }
