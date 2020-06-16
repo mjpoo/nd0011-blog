@@ -1,3 +1,7 @@
+a:link, a:visited {
+    color: #000000;
+}
+
 .container{
     display: flex;
     flex-direction: row;
@@ -21,8 +25,18 @@
     transition: box-shadow ease 0.5s;
 }
 
+.tilewrapper h2 {
+    font-weight: 300;
+    font-size: 16px;
+    color: #6e7696;
+}
+
+
 .tileinnerwrapper {
     padding-bottom: 10px;
     text-align: center;
     display: block;
 }
+
+
+
