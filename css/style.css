@@ -27,10 +27,13 @@ h2{
     font-family: ubuntu, arial;
 }
 
-
 nav {
+    background: tomato;
+}
+
+nav ul {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-evenly;    
 }
 
@@ -59,7 +62,7 @@ nav li a:hover {
 
 #tileContainer{
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-evenly;
 }
 
