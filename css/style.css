@@ -73,7 +73,8 @@ nav li a:hover {
     justify-content: center;
     max-width: 1000px;
     margin: 20px auto 0px auto;  
-    grid-template-columns: 270px 270px 270px;  
+    /* grid-template-columns: 270px 270px 270px;   */
+    grid-template-columns: 20vw 20vw 20vw; 
 }
 
 .tilewrapper{
