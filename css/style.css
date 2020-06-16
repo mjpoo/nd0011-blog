@@ -45,12 +45,12 @@ nav ul {
 }
 
 nav li {
-    /* float: left; */
     list-style: none;
     text-align: center;
     background-color: #6e7696;
     padding: 0px 20px;
     line-height: 50px;
+    width: 100px;
 }
 
 nav li a {
@@ -66,57 +66,4 @@ nav li a:hover {
     text-decoration: none;
     color: #FFFFFF;
     background-color: #000;
-}
-
-#tileContainer{
-    display: grid;
-    justify-content: center;
-    /* max-width: 100vw; */
-    margin: 20px auto 0px auto;  
-    grid-template-columns: repeat(3, 270px);     /* This would force it too wide on mobile so have media query */
-    /* grid-template-rows: repeat(2, 400px); */
-    /* grid-auto-columns: minmax(100px, auto);  */
-    /* grid-template-areas: ""; */
-}
-
-.tilewrapper{
-    width: 248px;
-    margin: 10px;
-    background-color: #fff;
-    padding: 0px;
-    height: 370px;
-    box-shadow: 0px 2px 4px #d0d0d0;
-    border-radius: 10px;
-    overflow: hidden;
-    display: inline-block;
-    /* position: relative; */
-    transition: top ease 0.5s;
-    /* top: 0px; */
-    transition: box-shadow ease 0.5s;
-}
-
-.tilewrapper h2 {
-    color: #6e7696;
-}
-
-/* Not using my .tileouterwrapper in this because it is superflous */
-
-.tileinnerwrapper {
-    padding-bottom: 10px;
-    text-align: center;
-    display: block;
-}
-
-.tileimagewrapper{
-    background-position: center center;
-    background-repeat: no-repeat;
-    text-align: right;    
-    height:150px;
-}
-
-/* This site is mobile first */ 
-@media (max-width: 1000px) {
-    #tileContainer{
-        grid-template-columns: 250px;
-    }
 }
