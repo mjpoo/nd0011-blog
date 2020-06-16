@@ -49,13 +49,13 @@ nav li {
     list-style: none;
     text-align: center;
     background-color: #6e7696;
-    width: 200px;
+    padding: 0px 20px;
     line-height: 50px;
 }
 
 nav li a {
     text-decoration: none;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     color: #FFFFFF;
     display: block;
@@ -69,8 +69,8 @@ nav li a:hover {
 }
 
 #tileContainer{
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    justify-content: center;
     max-width: 1000px;
     margin: 20px auto 0px auto;    
 }
