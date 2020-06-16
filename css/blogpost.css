@@ -1,0 +1,10 @@
+content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+}
+
+sidebar {
+    background-color: #c0c0c0;
+    padding: 20px;
+}
