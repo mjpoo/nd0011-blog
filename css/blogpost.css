@@ -35,9 +35,14 @@ sidebar {
 
 #bookPic {
     background-image: url("https://www.packtpub.com/media/catalog/product/cache/bf3310292d6e1b4ca15aeea773aca35e/1/8/1847194427.jpg");
+    background-size: 200px;
 }
 
 @media (max-width: 550px) {
+    content{
+        display: block;
+    }
+
     sidebar{
         display: none;
     }
