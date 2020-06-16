@@ -3,18 +3,11 @@
 - Some class names are not in kebab case for backward compatibility */
 
 body {
-    height: 100%;
     color: #000;
     font-family: lato, arial, helvetica, sans-serif;
     font-size: 16px;
-    text-align: justify;
     margin: 0px;
-    min-height: 100%;
     padding: 0px;
-    width: 950px;
-    margin-right: auto;
-    margin-left: auto;
-    /* text-align: center; */
 }
 
 a:link, a:visited {
@@ -27,11 +20,21 @@ h2{
     font-family: ubuntu, arial;
 }
 
+header {
+    text-align: center;
+    background-color: #000;
+}
+
+header h1 {
+    color: #fff;
+}
+
 nav {
     background: #6e7696;
 }
 
 nav ul {
+    padding: 0px;
     display: flex;
     /* flex-direction: row; */
     justify-content: space-evenly;    
@@ -48,6 +51,8 @@ nav li {
 
 nav li a {
     text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
     color: #FFFFFF;
     display: block;
     background-color: #6e7696;
