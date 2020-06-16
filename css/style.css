@@ -28,7 +28,7 @@ h2{
 }
 
 nav {
-    background: tomato;
+    background: #6e7696;
 }
 
 nav ul {
@@ -41,8 +41,7 @@ nav li {
     /* float: left; */
     list-style: none;
     text-align: center;
-    background-color: #000000;
-    margin-right: 20px;
+    background-color: #6e7696;
     width: 200px;
     line-height: 50px;
 }
@@ -51,12 +50,13 @@ nav li a {
     text-decoration: none;
     color: #FFFFFF;
     display: block;
+    background-color: #6e7696;
 }
 
 nav li a:hover {
     text-decoration: none;
-    color: #000000;
-    background-color: #6e7696;
+    color: #FFFFFF;
+    background-color: #000;
 }
 
 
@@ -67,11 +67,10 @@ nav li a:hover {
 }
 
 .tilewrapper{
-    width: 210px;
+    width: 248px;
     margin: 10px;
     background-color: #fff;
     padding: 0px;
-    font-size: 14px;
     height: 370px;
     box-shadow: 0px 2px 4px #d0d0d0;
     border-radius: 10px;
@@ -84,8 +83,6 @@ nav li a:hover {
 }
 
 .tilewrapper h2 {
-    font-weight: 300;
-    font-size: 16px;
     color: #6e7696;
 }
 
