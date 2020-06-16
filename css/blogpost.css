@@ -20,8 +20,15 @@ sidebar {
 }
 
 #bioPic {
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin: auto;
     background-image: url("https://img.yachting.org/gallery/4/200/3103.jpg");
+}
+
+@media (max-width: 550px) {
+    sidebar{
+        display: none;
+    }
 }
