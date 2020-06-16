@@ -6,7 +6,7 @@ content {
 
 article {
     padding: 20px;
-    line-height: 25px;
+    line-height: 30px;
     max-width: 1000px;
     margin: auto;
 }
@@ -17,4 +17,11 @@ sidebar {
     margin-top: 20px;
     margin-right: 20px;
     border-radius: 10px;
+}
+
+#bioPic {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-image: url("https://img.yachting.org/gallery/4/200/3103.jpg");
 }
