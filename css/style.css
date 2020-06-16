@@ -10,7 +10,7 @@ body {
     width: 950px;
     margin-right: auto;
     margin-left: auto;
-    text-align: center;
+    /* text-align: center; */
 }
 
 a:link, a:visited {
@@ -23,7 +23,7 @@ h2{
     font-family: ubuntu, arial;
 }
 
-.container{
+.tilecontainer{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -52,11 +52,10 @@ h2{
     color: #6e7696;
 }
 
+/* Note that I have not used my .tileouterwrapper in this because it is superflous */
+
 .tileinnerwrapper {
     padding-bottom: 10px;
     text-align: center;
     display: block;
 }
-
-
-
