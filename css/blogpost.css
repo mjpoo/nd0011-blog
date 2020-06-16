@@ -1,10 +1,17 @@
 content {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 220px;
     grid-gap: 15px;
 }
 
-sidebar {
-    background-color: #c0c0c0;
+article {
     padding: 20px;
+    line-height: 25px;
+}
+
+sidebar {
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 10px;
 }
