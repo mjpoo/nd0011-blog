@@ -1,3 +1,7 @@
+/* Naming convention notes:
+- ID names use camel case because that is my preference
+- Some class names are not in kebab case for backward compatibility */
+
 body {
     height: 100%;
     color: #000;
@@ -23,7 +27,31 @@ h2{
     font-family: ubuntu, arial;
 }
 
-.tilecontainer{
+
+nav li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    background-color: #000000;
+    margin-right: 20px;
+    width: 200px;
+    line-height: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+}
+
+nav li a:hover {
+    text-decoration: none;
+    color: #000000;
+    background-color: #6e7696;
+}
+
+
+#tileContainer{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -52,10 +80,17 @@ h2{
     color: #6e7696;
 }
 
-/* Note that I have not used my .tileouterwrapper in this because it is superflous */
+/* Not using my .tileouterwrapper in this because it is superflous */
 
 .tileinnerwrapper {
     padding-bottom: 10px;
     text-align: center;
     display: block;
+}
+
+.tileimagewrapper{
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: right;    
+    height:150px;
 }
