@@ -28,8 +28,14 @@ h2{
 }
 
 
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;    
+}
+
 nav li {
-    float: left;
+    /* float: left; */
     list-style: none;
     text-align: center;
     background-color: #000000;
