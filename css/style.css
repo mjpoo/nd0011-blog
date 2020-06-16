@@ -114,8 +114,9 @@ nav li a:hover {
     height:150px;
 }
 
-@media (min-width: 1000px) {
+/* This site is mobile first */ 
+@media (max-width: 1000px) {
     #tileContainer{
-        grid-template-columns: 100vw;
+        grid-template-columns: 250px;
     }
 }
