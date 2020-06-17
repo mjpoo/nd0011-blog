@@ -39,3 +39,10 @@ header h1 {
 #stuffWrapper{
     display: flex;
 }
+
+
+@media (max-width: 520px) {
+    #cadizImage{
+        width: 100px;
+    }
+}
