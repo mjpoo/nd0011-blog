@@ -30,6 +30,7 @@
 /* Not using my .tileouterwrapper in this because it is superflous */
 
 .tileinnerwrapper {
+    height: 150px;
     padding-bottom: 10px;
     text-align: center;
     display: block;
