@@ -35,3 +35,7 @@ header h1 {
     color: #fff;
     margin: 0px;
 }
+
+#stuffWrapper{
+    display: flex;
+}
