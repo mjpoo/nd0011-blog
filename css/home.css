@@ -47,6 +47,18 @@
     padding: 0px 10px 0px 10px;
 }
 
+#tile1{
+    background-image:url('https://img.yachting.org/gallery/12/250/13885.jpg');
+}
+
+#tile2{
+    background-image:url('https://img.yachting.org/gallery/12/250/13884.jpg');
+}
+
+#tile3{
+    background-image:url('https://img.yachting.org/gallery/12/250/12638.jpg');
+}
+
 /* This site is desktop first */ 
 @media (max-width: 780px) {
     #tileContainer{
