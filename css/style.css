@@ -14,8 +14,12 @@ body {
     padding: 0px;
 }
 
+figcaption {
+    color: #333;
+}
+
 a:link, a:visited {
-    color: #000000;
+    color: #000;
 }
 
 h2{
@@ -40,6 +44,15 @@ header h1 {
     display: flex;
 }
 
+.imageWrapper{
+    margin-left: 20px;
+}
+
+@media (max-width: 750px) {
+    #cadizImage{
+        width: 150px;
+    }
+}
 
 @media (max-width: 520px) {
     #cadizImage{
